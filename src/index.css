@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+header ul li {
+    @apply px-3
+}
+
+.bg-primary {
+    background: rgb(85 81 227);
+}
+
+.mobile-nav {
+    @apply fixed top-10 bg-gray-600 w-full h-1/4 left-0
+}
+
+.mobile-nav li{
+    @apply w-full h-full text-center border-b-2;
+}
+
+.bg-secondary {
+    background: #2b2b77;
+}
